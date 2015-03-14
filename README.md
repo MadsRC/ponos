@@ -33,9 +33,19 @@ places on the disk.
 5. Post-read - We, again, force the harddrives head to read every sector on the
 surface of the disk.
 
-**ponos** will look at the S.M.A.R.T. details of the disk before, and after the
-above 5 steps. It will then compare said data and represent to you a FAILURE or
-SUCCESS.
+**ponos** will let you look at the S.M.A.R.T. details of the disk before, and after the
+above 5 steps.
 
 It will also display the statistics for each read and write, such as the time
 it took and the size of the data.
+
+Please note that the script will take some time to complete. On a 2GB virtual
+harddrive that resides on a Apple SSD it takes around 260 seconds to complete.
+
+I have not run any tests on actual hardware yet.
+
+## Dependencies ##
+1. python 2.7
+2. hdparm
+3. dd
+4. smartmontools

@@ -54,7 +54,8 @@ if user_in != "yes":
 script_time_start = datetime.datetime.now()
 # Get preliminary SMART data/status
 print "+"+"-"*55+"+"
-print "[-] Getting preliminary S.M.A.R.T. data"
+print "[-] Retrieving preliminary S.M.A.R.T. data"
+start_SMART = tools.getSMARTattributes(disk)
 
 # Pre-Read the disk
 print "+"+"-"*55+"+"
@@ -67,7 +68,7 @@ print "[+] Pre-Read done in %i seconds" % (total.total_seconds(),)
 
 # Write 0's to the entire disk.
 print "+"+"-"*55+"+"
-print "[-] Writing 0's to the entire disk"
+print "[-] Full-write"
 before = datetime.datetime.now()
 tools.dd("/dev/zero", "/dev/%s" % (disk,), sectorSize, 0, 0)
 after = datetime.datetime.now()
@@ -76,7 +77,7 @@ print "[+] Wrote 0's to entire disk in %i seconds" % (total.total_seconds(),)
 
 # Random Writes
 print "+"+"-"*55+"+"
-print "[-] Random Writes"
+print "[-] Random writes"
 
 # Small random writes (0 - 200 sectors/blocks)
 count = 1
@@ -102,7 +103,7 @@ while count < 21:
 
 # Random Reads
 print "+"+"-"*55+"+"
-print "Random Reads"
+print "Random reads"
 
 # Small random reads (0 - 200 sectors/blocks)
 count = 1
@@ -128,26 +129,31 @@ while count < 21:
 
 # Post-Read the disk
 print "+"+"-"*55+"+"
-print "[-] Post-Reading disk"
+print "[-] Post-read"
 before = datetime.datetime.now()
 tools.dd("/dev/%s" % (disk,), "/dev/null", sectorSize, 0, 0)
 after = datetime.datetime.now()
 total = after-before
-print "[+] Post-Read done in %i seconds" % (total.total_seconds(),)
+print "[+] Post-read done in %i seconds" % (total.total_seconds(),)
 
 # Get SMART data/status
 print "+"+"-"*55+"+"
-print "[-] Getting final S.M.A.R.T. data"
+print "[-] Retrieving final S.M.A.R.T. data"
+end_SMART = tools.getSMARTattributes(disk)
 
 # Compare SMART data/status
 print "+"+"-"*55+"+"
 print "[-] Comparing S.M.A.R.T. data"
+print ""
+print "S.M.A.R.T. data pre script:"
+print start_SMART
+print ""
+print "S.M.A.R.T. data post script:"
+print end_SMART
 
 # Displaying the final verdict
 print "+"+"-"*55+"+"
 script_time_done = datetime.datetime.now()
 total = script_time_done-script_time_start
-print "[-] Disk Torture done."
+print "[-] ponos done."
 print "[-] This session lasted for %s seconds." % (total.total_seconds(),)
-print ""
-print "[+] Final verdict: Dunno... This isn't implemented yet."

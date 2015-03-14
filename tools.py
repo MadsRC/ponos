@@ -101,3 +101,9 @@ def dd(inputfile, outputfile, blocksize, seek, skip, count=None):
         count], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         out, err = proc.communicate()
     return err
+
+def getSMARTattributes(disk):
+    cmd ="smartctl --attributes /dev/%s" % (disk,)
+    proc = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE)
+    out, err = proc.communicate()
+    return out.rstrip("\n")
