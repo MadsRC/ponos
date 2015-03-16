@@ -81,7 +81,7 @@ print "[-] Random writes"
 
 # Small random writes (0 - 200 sectors/blocks)
 count = 1
-while count < 51:
+while count < 201:
     before = datetime.datetime.now()
     dd_params = tools.genWrite(sectorSize, sectorCount, startOffset, 0, 200)
     tools.dd("/dev/zero", "/dev/%s" % (disk,), sectorSize, dd_params[0], 0, dd_params[1])
@@ -92,13 +92,13 @@ while count < 51:
 
 # Medium random writes (2000 - 200000 sectors/blocks)
 count = 1
-while count < 21:
+while count < 101:
     before = datetime.datetime.now()
     dd_params = tools.genWrite(sectorSize, sectorCount, startOffset, 20000, 200000)
     tools.dd("/dev/zero", "/dev/%s" % (disk,), sectorSize, dd_params[0], 0, dd_params[1])
     after = datetime.datetime.now()
     total = after-before
-    print "[+] Medium random write #%i done in %i seconds - Wrote %i blocks" % (count,total.total_seconds(),dd_params[1]*sectorSize,)
+    print "[+] Medium random write #%i done in %i ms - Wrote %i blocks" % (count,total.total_seconds()*1000,dd_params[1]*sectorSize,)
     count = count+1
 
 # Random Reads
@@ -107,7 +107,7 @@ print "Random reads"
 
 # Small random reads (0 - 200 sectors/blocks)
 count = 1
-while count < 51:
+while count < 201:
     before = datetime.datetime.now()
     dd_params = tools.genWrite(sectorSize, sectorCount, startOffset, 0, 200)
     tools.dd("/dev/%s" % (disk,), "/dev/null", sectorSize, 0, dd_params[0], dd_params[1])
@@ -118,7 +118,7 @@ while count < 51:
 
 # Medium random reads (2000 - 200000 sectors/blocks)
 count = 1
-while count < 21:
+while count < 101:
     before = datetime.datetime.now()
     dd_params = tools.genWrite(sectorSize, sectorCount, startOffset, 20000, 200000)
     tools.dd("/dev/%s" % (disk,), "/dev/null", sectorSize, 0, dd_params[0], dd_params[1])

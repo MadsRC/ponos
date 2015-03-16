@@ -1,0 +1,226 @@
+[root@wb04 ponos]# python ponos.py sdc
++-------------------------------------------------------+
+[-] Disk Model: HGSTHDN724040ALE640
+[-] Disk Serial: PK2334PCJ0V6YB
+[-] Physical sector size: 4096
+[-] Sector count: 7814037168
+[-] Start offset: 0
++-------------------------------------------------------+
+WARNING! Disk /dev/sdc will be destroyed!
++-------------------------------------------------------+
+[!] Are you absolutely sure this is the right one?
+[yes|no]: yes
++-------------------------------------------------------+
+[-] Retrieving preliminary S.M.A.R.T. data
++-------------------------------------------------------+
+[-] Pre-Reading
+[+] Pre-Read done in 29793 seconds
++-------------------------------------------------------+
+[-] Full-write
+[+] Wrote 0's to entire disk in 29745 seconds
++-------------------------------------------------------+
+[-] Random writes
+[+] Small random write #1 done in 4 ms - Wrote 169 blocks
+[+] Small random write #2 done in 4 ms - Wrote 114 blocks
+[+] Small random write #3 done in 6 ms - Wrote 7 blocks
+[+] Small random write #4 done in 6 ms - Wrote 120 blocks
+[+] Small random write #5 done in 5 ms - Wrote 87 blocks
+[+] Small random write #6 done in 6 ms - Wrote 82 blocks
+[+] Small random write #7 done in 5 ms - Wrote 114 blocks
+[+] Small random write #8 done in 6 ms - Wrote 37 blocks
+[+] Small random write #9 done in 6 ms - Wrote 28 blocks
+[+] Small random write #10 done in 5 ms - Wrote 63 blocks
+[+] Small random write #11 done in 6 ms - Wrote 69 blocks
+[+] Small random write #12 done in 6 ms - Wrote 116 blocks
+[+] Small random write #13 done in 5 ms - Wrote 115 blocks
+[+] Small random write #14 done in 6 ms - Wrote 198 blocks
+[+] Small random write #15 done in 5 ms - Wrote 137 blocks
+[+] Small random write #16 done in 6 ms - Wrote 188 blocks
+[+] Small random write #17 done in 6 ms - Wrote 59 blocks
+[+] Small random write #18 done in 5 ms - Wrote 177 blocks
+[+] Small random write #19 done in 6 ms - Wrote 155 blocks
+[+] Small random write #20 done in 6 ms - Wrote 172 blocks
+[+] Small random write #21 done in 5 ms - Wrote 26 blocks
+[+] Small random write #22 done in 6 ms - Wrote 2 blocks
+[+] Small random write #23 done in 6 ms - Wrote 24 blocks
+[+] Small random write #24 done in 5 ms - Wrote 135 blocks
+[+] Small random write #25 done in 6 ms - Wrote 43 blocks
+[+] Small random write #26 done in 5 ms - Wrote 12 blocks
+[+] Small random write #27 done in 6 ms - Wrote 69 blocks
+[+] Small random write #28 done in 6 ms - Wrote 69 blocks
+[+] Small random write #29 done in 5 ms - Wrote 10 blocks
+[+] Small random write #30 done in 6 ms - Wrote 88 blocks
+[+] Small random write #31 done in 6 ms - Wrote 154 blocks
+[+] Small random write #32 done in 5 ms - Wrote 189 blocks
+[+] Small random write #33 done in 6 ms - Wrote 87 blocks
+[+] Small random write #34 done in 5 ms - Wrote 149 blocks
+[+] Small random write #35 done in 6 ms - Wrote 186 blocks
+[+] Small random write #36 done in 6 ms - Wrote 100 blocks
+[+] Small random write #37 done in 5 ms - Wrote 58 blocks
+[+] Small random write #38 done in 14 ms - Wrote 196 blocks
+[+] Small random write #39 done in 6 ms - Wrote 117 blocks
+[+] Small random write #40 done in 5 ms - Wrote 92 blocks
+[+] Small random write #41 done in 6 ms - Wrote 148 blocks
+[+] Small random write #42 done in 6 ms - Wrote 14 blocks
+[+] Small random write #43 done in 5 ms - Wrote 104 blocks
+[+] Small random write #44 done in 6 ms - Wrote 132 blocks
+[+] Small random write #45 done in 5 ms - Wrote 148 blocks
+[+] Small random write #46 done in 6 ms - Wrote 43 blocks
+[+] Small random write #47 done in 6 ms - Wrote 33 blocks
+[+] Small random write #48 done in 5 ms - Wrote 125 blocks
+[+] Small random write #49 done in 6 ms - Wrote 85 blocks
+[+] Small random write #50 done in 6 ms - Wrote 125 blocks
+[+] Medium random write #1 done in 0 seconds - Wrote 460140544 blocks
+[+] Medium random write #2 done in 0 seconds - Wrote 131837952 blocks
+[+] Medium random write #3 done in 0 seconds - Wrote 701972480 blocks
+[+] Medium random write #4 done in 0 seconds - Wrote 430768128 blocks
+[+] Medium random write #5 done in 0 seconds - Wrote 521224192 blocks
+[+] Medium random write #6 done in 0 seconds - Wrote 759500800 blocks
+[+] Medium random write #7 done in 0 seconds - Wrote 150630400 blocks
+[+] Medium random write #8 done in 7 seconds - Wrote 643792896 blocks
+[+] Medium random write #9 done in 1 seconds - Wrote 169160704 blocks
+[+] Medium random write #10 done in 0 seconds - Wrote 428171264 blocks
+[+] Medium random write #11 done in 0 seconds - Wrote 477405184 blocks
+[+] Medium random write #12 done in 0 seconds - Wrote 699920384 blocks
+[+] Medium random write #13 done in 0 seconds - Wrote 627150848 blocks
+[+] Medium random write #14 done in 0 seconds - Wrote 404951040 blocks
+[+] Medium random write #15 done in 0 seconds - Wrote 405856256 blocks
+[+] Medium random write #16 done in 0 seconds - Wrote 719118336 blocks
+[+] Medium random write #17 done in 0 seconds - Wrote 472780800 blocks
+[+] Medium random write #18 done in 0 seconds - Wrote 305434624 blocks
+[+] Medium random write #19 done in 0 seconds - Wrote 166522880 blocks
+[+] Medium random write #20 done in 0 seconds - Wrote 415465472 blocks
++-------------------------------------------------------+
+Random reads
+[+] Small random read #1 done in 6 ms - Read 54 blocks
+[+] Small random read #2 done in 5 ms - Read 69 blocks
+[+] Small random read #3 done in 6 ms - Read 122 blocks
+[+] Small random read #4 done in 5 ms - Read 121 blocks
+[+] Small random read #5 done in 6 ms - Read 39 blocks
+[+] Small random read #6 done in 6 ms - Read 141 blocks
+[+] Small random read #7 done in 5 ms - Read 98 blocks
+[+] Small random read #8 done in 1779 ms - Read 63 blocks
+[+] Small random read #9 done in 1 ms - Read 29 blocks
+[+] Small random read #10 done in 1 ms - Read 184 blocks
+[+] Small random read #11 done in 0 ms - Read 49 blocks
+[+] Small random read #12 done in 0 ms - Read 102 blocks
+[+] Small random read #13 done in 0 ms - Read 191 blocks
+[+] Small random read #14 done in 1 ms - Read 113 blocks
+[+] Small random read #15 done in 0 ms - Read 72 blocks
+[+] Small random read #16 done in 0 ms - Read 163 blocks
+[+] Small random read #17 done in 0 ms - Read 148 blocks
+[+] Small random read #18 done in 0 ms - Read 15 blocks
+[+] Small random read #19 done in 0 ms - Read 95 blocks
+[+] Small random read #20 done in 27 ms - Read 130 blocks
+[+] Small random read #21 done in 1 ms - Read 9 blocks
+[+] Small random read #22 done in 0 ms - Read 41 blocks
+[+] Small random read #23 done in 0 ms - Read 131 blocks
+[+] Small random read #24 done in 0 ms - Read 134 blocks
+[+] Small random read #25 done in 0 ms - Read 73 blocks
+[+] Small random read #26 done in 0 ms - Read 73 blocks
+[+] Small random read #27 done in 0 ms - Read 113 blocks
+[+] Small random read #28 done in 0 ms - Read 43 blocks
+[+] Small random read #29 done in 153 ms - Read 84 blocks
+[+] Small random read #30 done in 1 ms - Read 94 blocks
+[+] Small random read #31 done in 0 ms - Read 150 blocks
+[+] Small random read #32 done in 0 ms - Read 62 blocks
+[+] Small random read #33 done in 0 ms - Read 187 blocks
+[+] Small random read #34 done in 1 ms - Read 75 blocks
+[+] Small random read #35 done in 21 ms - Read 49 blocks
+[+] Small random read #36 done in 1 ms - Read 59 blocks
+[+] Small random read #37 done in 0 ms - Read 191 blocks
+[+] Small random read #38 done in 0 ms - Read 130 blocks
+[+] Small random read #39 done in 0 ms - Read 109 blocks
+[+] Small random read #40 done in 0 ms - Read 167 blocks
+[+] Small random read #41 done in 0 ms - Read 41 blocks
+[+] Small random read #42 done in 0 ms - Read 40 blocks
+[+] Small random read #43 done in 0 ms - Read 194 blocks
+[+] Small random read #44 done in 0 ms - Read 146 blocks
+[+] Small random read #45 done in 0 ms - Read 46 blocks
+[+] Small random read #46 done in 0 ms - Read 164 blocks
+[+] Small random read #47 done in 0 ms - Read 113 blocks
+[+] Small random read #48 done in 1 ms - Read 23 blocks
+[+] Small random read #49 done in 1 ms - Read 169 blocks
+[+] Small random read #50 done in 0 ms - Read 181 blocks
+[+] Medium random read #1 done in 0 ms - Read 111266 blocks
+[+] Medium random read #2 done in 0 ms - Read 115810 blocks
+[+] Medium random read #3 done in 0 ms - Read 178424 blocks
+[+] Medium random read #4 done in 5277 ms - Read 124559 blocks
+[+] Medium random read #5 done in 2875 ms - Read 82626 blocks
+[+] Medium random read #6 done in 3828 ms - Read 145697 blocks
+[+] Medium random read #7 done in 1 ms - Read 105017 blocks
+[+] Medium random read #8 done in 1 ms - Read 154131 blocks
+[+] Medium random read #9 done in 4033 ms - Read 123681 blocks
+[+] Medium random read #10 done in 1 ms - Read 186764 blocks
+[+] Medium random read #11 done in 1 ms - Read 153980 blocks
+[+] Medium random read #12 done in 1 ms - Read 171046 blocks
+[+] Medium random read #13 done in 1 ms - Read 164823 blocks
+[+] Medium random read #14 done in 1 ms - Read 144101 blocks
+[+] Medium random read #15 done in 0 ms - Read 116220 blocks
+[+] Medium random read #16 done in 1 ms - Read 77905 blocks
+[+] Medium random read #17 done in 1 ms - Read 101351 blocks
+[+] Medium random read #18 done in 1 ms - Read 32193 blocks
+[+] Medium random read #19 done in 1 ms - Read 146387 blocks
+[+] Medium random read #20 done in 1 ms - Read 161381 blocks
++-------------------------------------------------------+
+[-] Post-read
+[+] Post-read done in 29854 seconds
++-------------------------------------------------------+
+[-] Retrieving final S.M.A.R.T. data
++-------------------------------------------------------+
+[-] Comparing S.M.A.R.T. data
+
+S.M.A.R.T. data pre script:
+smartctl 6.2 2013-07-26 r3841 [x86_64-linux-3.10.0-123.el7.x86_64] (local build)
+Copyright (C) 2002-13, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000b   100   100   016    Pre-fail  Always       -       0
+  2 Throughput_Performance  0x0005   136   136   054    Pre-fail  Offline      -       81
+  3 Spin_Up_Time            0x0007   126   126   024    Pre-fail  Always       -       640 (Average 582)
+  4 Start_Stop_Count        0x0012   100   100   000    Old_age   Always       -       13
+  5 Reallocated_Sector_Ct   0x0033   100   100   005    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000b   100   100   067    Pre-fail  Always       -       0
+  8 Seek_Time_Performance   0x0005   121   121   020    Pre-fail  Offline      -       34
+  9 Power_On_Hours          0x0012   100   100   000    Old_age   Always       -       54
+ 10 Spin_Retry_Count        0x0013   100   100   060    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       13
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       15
+193 Load_Cycle_Count        0x0012   100   100   000    Old_age   Always       -       15
+194 Temperature_Celsius     0x0002   200   200   000    Old_age   Always       -       30 (Min/Max 22/31)
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0022   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0008   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x000a   200   200   000    Old_age   Always       -       0
+
+S.M.A.R.T. data post script:
+smartctl 6.2 2013-07-26 r3841 [x86_64-linux-3.10.0-123.el7.x86_64] (local build)
+Copyright (C) 2002-13, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000b   100   100   016    Pre-fail  Always       -       0
+  2 Throughput_Performance  0x0005   136   136   054    Pre-fail  Offline      -       81
+  3 Spin_Up_Time            0x0007   126   126   024    Pre-fail  Always       -       640 (Average 582)
+  4 Start_Stop_Count        0x0012   100   100   000    Old_age   Always       -       13
+  5 Reallocated_Sector_Ct   0x0033   100   100   005    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000b   100   100   067    Pre-fail  Always       -       0
+  8 Seek_Time_Performance   0x0005   121   121   020    Pre-fail  Offline      -       34
+  9 Power_On_Hours          0x0012   100   100   000    Old_age   Always       -       79
+ 10 Spin_Retry_Count        0x0013   100   100   060    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       13
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       15
+193 Load_Cycle_Count        0x0012   100   100   000    Old_age   Always       -       15
+194 Temperature_Celsius     0x0002   187   187   000    Old_age   Always       -       32 (Min/Max 22/32)
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0022   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0008   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x000a   200   200   000    Old_age   Always       -       0
++-------------------------------------------------------+
+[-] ponos done.
+[-] This session lasted for 89421.793827 seconds.
